@@ -7,9 +7,10 @@ Render prop is a pattern for sharing code (state and logic) between React compon
 ## Counter Example
 
 - Provider component: `CounterProvider`
-- contains state and state-updater function.
-- receives function that returns presentational components via `props.render`
-- renders presentational components by calling `render` prop (can be any other name) passing in the state and updater
+
+  - contains state and state-updater function.
+  - receives function that returns presentational components via `props.render`
+  - renders presentational components by calling `render` prop (can be any other name) passing in the state and updater
 
 - Presentational components: `ClickCounter`, `HoverCounter`, and `UpArrowCounter`
 
